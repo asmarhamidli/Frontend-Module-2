@@ -4,6 +4,17 @@
     padding: 0;
 }
 
+header{
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
 .container{
     display: flex;
     flex-direction: row;
@@ -14,10 +25,10 @@
 
 .box{
     width: 30%;
-    background-color: #33ed41;
+    background-color: #33ed;
     padding:20px;
-    border: 1px solid black;
     margin: 10px;
+    color: #fff;
 }
 
 @media (min-width: 768px) and (max-width: 991px){
